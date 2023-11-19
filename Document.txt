@@ -1,0 +1,14 @@
+Instructions
+
+Problème 1
+Solution avec un tableau.
+Initialiser la somme = 0. 
+Comparez chaque élément du premier ensemble avec le deuxième ensemble et si l'élément n'est pas présent, ajoutez cet élément à la somme. 
+Faites ensuite l’inverse pour ajouter des éléments du deuxième ensemble.
+Problème 2
+
+Lors de la création de votre algorithme, vous devez : 
+
+Utilisez un tableau pour présenter le vecteur.
+Utilisez une boucle imbriquée (une boucle dans une autre si vous le souhaitez)
+Utiliser différents types de paramètres de transmission

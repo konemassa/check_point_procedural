@@ -1,0 +1,29 @@
+
+ALGORITHME Vecteur;
+
+var
+    vect1: array_of integer[5];
+    vect2: array_of integer[5];
+    i, j, prod_vect : integer;
+begin 
+
+    // La saiaie des donnees//
+    prod_vect:=0;
+    for (i from 0 to vect1.lenght) do
+        read(vect1[i])
+    end for
+    for (j from 0 to vect1.lenght) do
+        read(vect2[j])
+    end for
+      // Traitement //
+    for (i from 0 to vect1.lenght) do
+            prod_vect:=prod_vect + vect1[i]*vect2[i];
+    end for
+    // Affichage //
+    if prod_vect==0 then
+        write("les deux vecteurs, "+ vect1+  "et" +vect2+ " sont orthogonaux");
+    else
+        write("les deux vecteurs, "+vect1+  "et" +vect2+ " sont orthogonaux"); 
+    end if
+end.
+

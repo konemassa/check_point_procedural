@@ -1,0 +1,28 @@
+
+ALGORITHME sous_chaine;
+
+var
+
+    
+    i,j,k,nbrcar: integer
+    tab: array_of char[50];
+    new_tab: array_of string[50];
+
+begin 
+    nbrcar:=0;
+    read(k);
+    for (i from 0 to tab.lenght) do
+        for (j from 0 to new_tab.lenght) do
+            if (j==0) then
+                new_tab[j]:=tab[i][j]
+            end if
+            if (j!=0) then
+                for (c from 0 to new_tab.lenght) do 
+                    if (tab[i][j]==new_tab[k]) then
+                        
+                    end if
+                end for
+            end if
+        end for
+    end for
+end

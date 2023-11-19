@@ -1,0 +1,51 @@
+ALGORITHME Algorithmation_procedurale;
+
+var
+    
+    ensble1: array_of integer[];
+    ensble2: array_of integer[];
+    i, j, cpt, som: integer;
+
+begin
+    som:=0;
+    // La saisie des donnees //
+    for (i from 0 to ensble1.lenght) do
+        read(ensble1[i]);        
+    end for
+    for (j from 0 to ensble2.lenght) do
+        read(ensble2[j]);        
+    end for
+    // Le traitement des donnees //
+
+    //traitement du l'ensemble 1//
+    for (i from 0 to ensble1.lenght) do
+    cpt:=ensble1[i];
+        for (j from 0 to ensble2.lenght) do
+            if (ensble[j]=cpt) then
+                BREAK;
+            end if
+        end for
+        if (i==ensble1.lenght) then
+            som:=som + cpt;
+        end if
+    end for
+
+    //traitement du l'ensemble 2//
+    for (j from 0 to ensble2.lenght) do
+        cpt:=ensble2[j];
+        for (i from 0 to ensble1.lenght) do
+            if (ensble1[i]=cpt) then
+                BREAK;
+            end if
+        end for
+        if (j==ensble2.lenght) then
+            som:=som + cpt;
+        end if
+    end for
+
+    //Affichage//
+    write("La somme de tous les éléments distincts de l'ensemble est: "+ som);
+end.
+    
+
+
